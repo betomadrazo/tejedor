@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
   res.send('Probando deploy openode')
 })
 
-const server = app.listen(3000, () => {
+const server = app.listen(80, () => {
 
 });
